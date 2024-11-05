@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Food Waste Management Solutions</title>
+  <style>
+    /* Basic Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    header {
+      background-color: #ff7043;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      width: 222px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 2rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Slideshow Styling */
+    .slideshow {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    .slideshow img {
+      width: 100%;
+      display: none; /* Hide all images initially */
+      transition: opacity 1s ease-in-out;
+    }
+
+    .slideshow img.active {
+      display: block; /* Show only the active image */
+      opacity: 1;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #ff7043;
+      color: #fff;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    /* Solutions Section */
+    .solutions {
+      padding: 3rem 2rem;
+      background-color: #fdf2e9;
+      text-align: center;
+    }
+
+    .solutions h2 {
+      font-size: 2.5rem;
+      color: #ff7043;
+      margin-bottom: 2rem;
+    }
+
+    .solution-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .solution-item {
+      width: 30%;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 1.5rem;
+      margin: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .solution-item h3 {
+      color: #ff7043;
+      margin-bottom: 1rem;
+    }
+
+    .solution-item p {
+      font-size: 1rem;
+      color: #333;
+      line-height: 1.6;
+    }
+    /* Blog Section */
+    .blog-section {
+      background-color: #fdf2e9;
+      padding: 4rem 2rem;
+      margin-top: 2rem;
+      text-align: left;
+    }
+
+    .blog-section h2 {
+      font-size: 2.5rem;
+      color: #ff7043;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .blog-section p {
+      font-size: 1.2rem;
+      color: #333;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+
+    .blog-section p strong {
+      color: #ff7043;
+    }
+
+    .blog-section a {
+      color: #ff7043;
+      text-decoration: underline;
+    }
+
+    .blog-section ul {
+      margin-left: 20px;
+      list-style: disc;
+      color: #333;
+    }
+
+    .blog-section ul li {
+      margin-bottom: 0.8rem;
+    }
+
+    .blog-section blockquote {
+      font-style: italic;
+      background-color: #f0990bf0;
+      padding: 1rem;
+      border-left: 5px solid #ff7043;
+      margin: 2rem 0;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #ff7043;
+      color: #ffffff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .solution-item {
+        width: 100%;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Food Waste Management Solutions</h1> 
+  </div>
+  <img src="LPU.jpg.jpg" alt="Lovely Professional University Logo">
+</header>
+
+<!-- Hero Section with Slideshow -->
+<section class="hero">
+  <div class="slideshow">
+    <img src="a.jpeg" alt="Slide 1" class="active">
+    <img src="c.jpeg" alt="Slide 2">
+    <img src="d.jpeg" alt="Slide 3">
+  </div>
+  <h1>Innovative Solutions for a Greener Future</h1>
+  <p>We use technology to reduce food waste and support sustainable development goals.</p>
+</section>
+
+<!-- Solutions Section -->
+<section class="solutions">
+  <h2>Our Solutions</h2>
+  <div class="solution-list">
+    <div class="solution-item">
+      <h3>IoT-Based Monitoring</h3>
+      <p>Monitor and manage food storage conditions in real-time with our IoT solutions to prevent spoilage.</p>
+    </div>
+    <div class="solution-item">
+      <h3>AI-Powered Inventory</h3>
+      <p>Utilize AI to predict demand and optimize supply chains to reduce overproduction and waste.</p>
+    </div>
+    <div class="solution-item">
+      <h3>Blockchain Transparency</h3>
+      <p>Ensure supply chain transparency and reduce inefficiencies with our blockchain tracking system.</p>
+    </div>
+    <div class="solution-item">
+      <h3>Smart Waste Sorting</h3>
+      <p>Automate waste sorting to ensure proper disposal and enhance recycling efforts.</p>
+    </div>
+    <div class="solution-item">
+      <h3>Consumer Awareness Apps</h3>
+      <p>Empower consumers to track food freshness, manage inventories, and reduce waste through mobile applications.</p>
+    </div>
+    <div class="solution-item">
+      <h3>Data Analytics for Insights</h3>
+      <p>Leverage data analytics to identify food waste patterns and develop targeted strategies for reduction.</p>
+    </div>
+  </div>
+</section>
+<!-- Blog Section -->
+<section class="blog-section" id="blog">
+  <h2>Harnessing the Power of IT for Food Waste Management: A Path to Sustainable Development</h2>
+  <p>
+    Food waste is a pressing global issue with far-reaching economic, environmental, and social consequences. According to the <strong>Food and Agriculture Organization (FAO)</strong>, approximately one-third of all food produced for human consumption is wasted or lost globally each year. In an era where millions face food insecurity, this waste is not only an ethical issue but also a significant environmental concern, contributing to greenhouse gas emissions and depleting precious natural resources. But what if technology could help us solve this?
+  </p>
+  <p>
+    At the intersection of technology and sustainability, IT solutions offer a transformative approach to addressing food waste, enabling businesses, consumers, and governments to minimize waste, optimize resources, and promote sustainable practices.
+  </p>
+
+  <h3>The Problem of Food Waste</h3>
+  <p>
+    Before diving into the solutions, it’s essential to understand the scale of the problem. Food waste occurs at every stage of the supply chain—from production to distribution, to consumer disposal. Some common causes include:
+  </p>
+  <ul>
+    <li><strong>Overproduction and mismanagement</strong> in agriculture and retail.</li>
+    <li><strong>Lack of proper storage</strong> and refrigeration facilities, especially in developing countries.</li>
+    <li><strong>Excessive portion sizes</strong> and poor meal planning in households and restaurants.</li>
+    <li><strong>Misperception of food expiration labels</strong>, leading to the premature disposal of perfectly edible food.</li>
+  </ul>
+  <p>
+    Reducing food waste requires a multi-faceted approach, and this is where IT solutions come into play.
+  </p>
+
+  <h3>How IT Solutions Are Reducing Food Waste</h3>
+  <p>
+    Information technology is revolutionizing how we monitor, manage, and minimize food waste. Here are some of the ways modern technologies are making an impact:
+  </p>
+
+  <ul>
+    <li><strong>Real-time Monitoring through IoT Sensors</strong>: Internet of Things (IoT) devices monitor food storage conditions in real-time, helping businesses detect spoilage risks early.</li>
+    <li><strong>Predictive Data Analytics</strong>: Analyzing consumption patterns helps businesses optimize inventory, minimizing overstocking and reducing food waste.</li>
+    <li><strong>AI for Supply Chain Optimization</strong>: AI-powered tools streamline logistics, reducing inefficiencies and ensuring perishable goods reach their destination efficiently.</li>
+    <li><strong>Blockchain Technology for Supply Chain Transparency</strong>: Blockchain ensures accountability across the food supply chain by creating an immutable record of every transaction.</li>
+    <li><strong>Waste Reduction Software for Kitchens</strong>: Kitchens use software to track and analyze food waste, adjusting portions and inventory to minimize waste.</li>
+    <li><strong>Automated Food Sorting</strong>: Automated systems help sort food waste, ensuring proper disposal and reuse of organic matter for compost or energy.</li>
+  </ul>
+
+  <blockquote>
+    "By leveraging IT solutions to manage food waste, the environmental benefits are immense. Lowering food waste helps reduce greenhouse gas emissions, conserve natural resources, and protect biodiversity."
+  </blockquote>
+
+  <h3>The Role of IT in Consumer Awareness</h3>
+  <p>
+    Beyond helping businesses reduce food waste, technology also plays a role in educating consumers. Apps that help plan meals, track expiration dates, and donate surplus food empower consumers to make more sustainable choices.
+  </p>
+
+  <h3>Food Waste and Sustainable Development</h3>
+  <p>
+    Addressing food waste is critical to achieving the United Nations' Sustainable Development Goals (SDGs), particularly <strong>Goal 12: Responsible Consumption and Production</strong>. By 2030, the global community aims to halve food waste and reduce food losses throughout the supply chain. IT solutions play a crucial role in this by providing tools that promote responsible food consumption.
+  </p>
+
+  <h3>How We Can Help</h3>
+  <p>
+    At our company, we are committed to developing IT solutions to tackle food waste and create a more sustainable future. Whether through real-time monitoring systems, data analytics, or AI-powered optimizations, we offer comprehensive tools to help reduce food loss and drive sustainable practices across the food supply chain.
+  </p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2024 Food Waste Management Solutions. All rights reserved.</p>
+</footer>
+
+<!-- JavaScript for Slideshow -->
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.slideshow img');
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === index);
+    });
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  // Change slide every 3 seconds
+  setInterval(nextSlide, 3000);
+</script>
+
+</body>
+</html>
